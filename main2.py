@@ -1,4 +1,4 @@
-#задача 2
+#задача 3
 
 date = []
 task = []
@@ -10,8 +10,7 @@ while not stop:
     date.append(date_input)
     task.append(task_input)
     task_list[date_input] = task_input
-    for date_key, task_value in task_list.items():
-        print(f"{date_key} - {task_value}")
+
     stop_input = input("Хотите ли добавить еще задачу? (да/нет): ")
     if stop_input.lower() == 'нет':
         stop = True
