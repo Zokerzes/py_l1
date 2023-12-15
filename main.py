@@ -13,3 +13,4 @@ while not stop:
     stop_input = input("Хотите ли добавить еще задачу? (да/нет): ")
     if stop_input.lower() == 'нет':
         stop = True
+
